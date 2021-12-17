@@ -67,12 +67,31 @@ const app = new Vue(
       //   ];
       // }, 1000);
       
+      // this.images = [
+      //     'image1.jpg',
+      //     'image2.jpg',
+      //     'image3.jpg',
+      //     'image4.jpg'
+      //   ];
+
       this.images = [
-          'image1.jpg',
-          'image2.jpg',
-          'image3.jpg',
-          'image4.jpg'
-        ];
+        {
+          caption: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nostrum repudiandae debitis perspiciatis tempore iste doloribus nisi autem! Distinctio assumenda nostrum rem doloribus sed harum vitae ab ratione suscipit officia!',
+          url: 'image1.jpg'
+        },
+        {
+          caption: '2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nostrum repudiandae debitis perspiciatis tempore iste doloribus nisi autem! Distinctio assumenda nostrum rem doloribus sed harum vitae ab ratione suscipit officia!',
+          url: 'image2.jpg'
+        },
+        {
+          caption: '3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nostrum repudiandae debitis perspiciatis tempore iste doloribus nisi autem! Distinctio assumenda nostrum rem doloribus sed harum vitae ab ratione suscipit officia!',
+          url: 'image3.jpg'
+        },
+        {
+          caption: '4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nostrum repudiandae debitis perspiciatis tempore iste doloribus nisi autem! Distinctio assumenda nostrum rem doloribus sed harum vitae ab ratione suscipit officia!',
+          url: 'image4.jpg'
+        },
+      ];
 
       this.counter = 0;
 
